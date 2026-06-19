@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding:0;
+  color: white;
+}
+
+
+body{
+  width: 100vw;
+  height: auto;
+  background-color: hwb(0 0% 100%);
+  font-family: "Roboto",sans-serif;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:15px;
+}
+
+.navbar ul {
+  list-style-type:none;
+  display: flex;
+  gap: 15px;
+  padding: 14px;
+}
+
+.navbar ul a {
+  font: 3rem;
+  text-decoration: none;
+
+}
+
+.navbar ul a:hover {
+  background: #0897d4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.hero-image img {
+  width: 500px;
+  height: 470px;
+  border-radius: 30px;
+}
+
+.hero-content h1 {
+  max-width: 200px;
+  font-size: 2.7em;
+  line-height: 3rem;
+}
+
+.hero-content p{
+  max-width:400px ;
+  line-height: 1.1rem;
+  font-weight: 200;
+  
+}
+
+.hero-content h2{
+  margin-top: 20px;
+}
+
+.btn,.view-project-btn {
+  background-color:hsl(198, 93%, 43%); 
+  padding: 14px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.btn:hover,.view-project-btn:hover {
+  padding: 17px;
+  border-radius:12px ;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  margin : 20px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project1{
+  box-shadow:12px 12px 35px rgba(36, 51, 211, 0.7);
+  border-radius: 10px ;
+  border: 5px solid black;
+  width: fit-content;
+  flex:1 1 auto;
+}
+
+.project1 img {
+  width: 550px;
+  height: 350px;
+  border: 20px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.projects h3 {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.projects p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.projects a {
+  text-decoration: none;
+  width: 100px;
+  background-color: #0897d4;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.projects a:hover {
+  background-color: blue;
+}
+
+.project1.active {
+  display: block;
+}
+
+.project1 {
+  display: none;
+}
+
+
