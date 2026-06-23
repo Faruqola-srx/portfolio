@@ -1,3 +1,5 @@
+@import url('viewtransition.css');
+
 *{
   margin:0;
   padding:0;
@@ -104,7 +106,7 @@ header {
 }
 
 .project1{
-  box-shadow:12px 12px 35px rgba(36, 51, 211, 0.7);
+  box-shadow:12px 12px 35px rgb(1, 22, 254);
   border-radius: 10px ;
   border: 5px solid black;
   width: fit-content;
@@ -164,5 +166,140 @@ svg {
   width: 75px;
   height: 75px;
 }
+
+.about {
+  margin: 20px;
+}
+
+.img-and-intro {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.img-and-intro img {
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
+.intro h1 {
+  color: blue;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.intro h2 {
+  line-height: 1.6rem;
+  font-size: 3rem;
+  margin-top: 15px;
+}
+
+.intro span {
+  color: blue;
+}
+
+.intro p {
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.intro {
+  width: 100%;
+  max-width: 600px;
+}
+
+.aside-coding {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+  margin: 10px;
+}
+
+.aside-coding .word-n-icon {
+  box-shadow:12px 12px 35px rgb(1, 30, 253);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(1, 1, 252);
+}
+
+.others {
+  display: flex;
+  margin: 20px;
+  padding: 30px;
+  box-shadow:12px 12px 35px rgb(1, 22, 254);
+  justify-content: space-between;
+}
+
+.skills,.second-page,.third-page {
+  border: 2px solid rgba(41, 4, 252, 0.1);
+  padding: 10px;
+}
+
+.skills .icon-n-content {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.skills .icon-n-content svg{
+  width: 40px;
+  height: 40px;
+}
+
+.skills .icon-n-content h1{
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.second-page .point-n-word {
+  display: flex;
+  margin-top: 15px;
+  padding-top: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.point-n-word div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.second-page .point-n-word h1 {
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.third-page .icon-n-content{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.third-page .icon-n-content svg{
+  width: 40px;
+  height: 40px;
+}
+
+.icon-n-content p {
+   font-size: 1.1rem;
+  font-weight: 100;
+}
+
+
+
+
 
 
