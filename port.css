@@ -507,6 +507,12 @@ input::placeholder {
   padding: 12px;
 }
 
+.menu {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
 @media (max-width:920px) {
   .hero {
     flex-direction: column-reverse;
@@ -601,6 +607,31 @@ input::placeholder {
 
 .second-container #name,#email {
   width: 100%;
+}
+
+.menu {
+  display: block;
+}
+
+.navbar ul.active {
+  display: flex;
+}
+
+.navbar ul {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+header {
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 200px;
+  align-items: flex-start;
 }
 }
 

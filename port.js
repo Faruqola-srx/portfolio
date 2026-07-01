@@ -81,5 +81,13 @@ function contactPagedisplay() {
   aboutPage.style.display='none';
 }
 getInTouch.addEventListener('click',contactPagedisplay);
-contactBtn.addEventListener('click',contactPagedisplay)
+contactBtn.addEventListener('click',contactPagedisplay);
+
+//navbar
+const menu =document.querySelector('.menu');
+menu.addEventListener('click',()=>{
+  document.querySelector('.navbar ul').classList.toggle('active')
+  
+})
+
  
