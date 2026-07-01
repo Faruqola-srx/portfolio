@@ -611,7 +611,9 @@ input::placeholder {
 
 .menu {
   display: block;
+  padding: 10px;
 }
+
 
 .navbar ul.active {
   display: flex;
@@ -631,13 +633,29 @@ header {
   margin-left: 0;
   height: 200px;
   align-items: flex-start;
-  background-color: #12131A;
   width: 100%;
-  padding: 20px;
+}
+
+header.active {
+  background-color: #12131A;
 }
 
 .logo h1 {
   font-size: 25px;
+  padding: 10px;
+}
+
+.btn,.view-project-btn {
+  font-size: 22px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  font-weight: 250;
+}
+
+.hero-content h1 {
+  margin: auto;
 }
 }
 

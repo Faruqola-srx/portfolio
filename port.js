@@ -86,8 +86,9 @@ contactBtn.addEventListener('click',contactPagedisplay);
 //navbar
 const menu =document.querySelector('.menu');
 menu.addEventListener('click',()=>{
-  document.querySelector('.navbar ul').classList.toggle('active')
-  
+  document.querySelector('.navbar ul').classList.toggle('active');
+ document.querySelector('header').classList.toggle('active')
 })
+
 
  
