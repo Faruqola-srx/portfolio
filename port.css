@@ -526,6 +526,7 @@ input::placeholder {
   .hero-image img {
     width: 400px;
     height: 370px;
+    margin-top: 3.5em;
   }
 
   .hero-content p{
@@ -635,6 +636,7 @@ header {
   height: 200px;
   align-items: flex-start;
   width: 100%;
+  position: fixed;
 }
 
 header.active {
