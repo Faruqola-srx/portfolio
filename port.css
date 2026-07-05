@@ -73,6 +73,7 @@ header {
 
 .hero-content h2{
   margin-top: 20px;
+
 }
 
 .btn,.view-project-btn {
@@ -656,6 +657,18 @@ header.active {
 
 .hero-content h1 {
   margin: auto;
+}
+
+.hero-content h2 {
+  min-width: 380px;
+}
+
+.hero-content {
+  margin-left: 15px;
+}
+
+.hero {
+   margin: 10px;
 }
 }
 
